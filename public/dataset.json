@@ -1,0 +1,586 @@
+{
+  "nodes": [
+    {
+      "id": "mic-1",
+      "left": 60,
+      "top": 60,
+      "type": "device",
+      "deviceId": "MIC-1",
+      "manufacturer": "AKG",
+      "model": "C414 XLS",
+      "category": "microphone",
+      "location": "Stage Left",
+      "ports": [
+        {
+          "id": "out",
+          "label": "OUT",
+          "direction": "output",
+          "connectorType": "XLR"
+        }
+      ]
+    },
+    {
+      "id": "wmic-1",
+      "left": 60,
+      "top": 240,
+      "type": "device",
+      "deviceId": "WMIC-1",
+      "manufacturer": "Audio-Technica",
+      "model": "ATW-R5220",
+      "category": "wireless-mic",
+      "location": "Rack 1U-1",
+      "ports": [
+        {
+          "id": "out-1",
+          "label": "OUT 1",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "out-2",
+          "label": "OUT 2",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "output",
+          "connectorType": "RJ45"
+        }
+      ]
+    },
+    {
+      "id": "media-1",
+      "left": 60,
+      "top": 460,
+      "type": "device",
+      "deviceId": "MEDIA-1",
+      "manufacturer": "Denon Professional",
+      "model": "DN-500BD MKII",
+      "category": "media-player",
+      "location": "Rack 1U-2",
+      "ports": [
+        {
+          "id": "hdmi-out",
+          "label": "HDMI",
+          "direction": "output",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "out-l",
+          "label": "OUT L",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "out-r",
+          "label": "OUT R",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "output",
+          "connectorType": "RJ45"
+        }
+      ]
+    },
+    {
+      "id": "cam-1",
+      "left": 60,
+      "top": 700,
+      "type": "device",
+      "deviceId": "CAM-1",
+      "manufacturer": "Panasonic",
+      "model": "AW-UE50",
+      "category": "camera",
+      "location": "FOH Balcony",
+      "ports": [
+        {
+          "id": "hdmi-out",
+          "label": "HDMI",
+          "direction": "output",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "sdi-out",
+          "label": "SDI",
+          "direction": "output",
+          "connectorType": "BNC"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "output",
+          "connectorType": "RJ45"
+        },
+        {
+          "id": "usb",
+          "label": "USB",
+          "direction": "output",
+          "connectorType": "USB"
+        }
+      ]
+    },
+    {
+      "id": "cam-2",
+      "left": 60,
+      "top": 940,
+      "type": "device",
+      "deviceId": "CAM-2",
+      "manufacturer": "Canon",
+      "model": "CR-N300",
+      "category": "camera",
+      "location": "Stage Right",
+      "ports": [
+        {
+          "id": "hdmi-out",
+          "label": "HDMI",
+          "direction": "output",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "sdi-out",
+          "label": "SDI",
+          "direction": "output",
+          "connectorType": "BNC"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "output",
+          "connectorType": "RJ45"
+        },
+        {
+          "id": "usb",
+          "label": "USB",
+          "direction": "output",
+          "connectorType": "USB"
+        }
+      ]
+    },
+    {
+      "id": "media-2",
+      "left": 60,
+      "top": 1180,
+      "type": "device",
+      "deviceId": "MEDIA-2",
+      "manufacturer": "SpinetiX",
+      "model": "HMP400",
+      "category": "media-player",
+      "location": "Rack 1U-3",
+      "ports": [
+        {
+          "id": "hdmi-out",
+          "label": "HDMI",
+          "direction": "output",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "audio-out",
+          "label": "AUDIO",
+          "direction": "output",
+          "connectorType": "3.5mm"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "output",
+          "connectorType": "RJ45"
+        }
+      ]
+    },
+    {
+      "id": "mixer-1",
+      "left": 580,
+      "top": 120,
+      "type": "device",
+      "deviceId": "MIXER-1",
+      "manufacturer": "Allen & Heath",
+      "model": "SQ-5",
+      "category": "mixer",
+      "location": "FOH Booth",
+      "ports": [
+        {
+          "id": "mic-1",
+          "label": "MIC 1",
+          "direction": "input",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "mic-2",
+          "label": "MIC 2",
+          "direction": "input",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "mic-3",
+          "label": "MIC 3",
+          "direction": "input",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "mic-4",
+          "label": "MIC 4",
+          "direction": "input",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "out-1",
+          "label": "OUT 1",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "out-2",
+          "label": "OUT 2",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "out-3",
+          "label": "OUT 3",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "out-4",
+          "label": "OUT 4",
+          "direction": "output",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "output",
+          "connectorType": "RJ45"
+        }
+      ]
+    },
+    {
+      "id": "sw-1",
+      "left": 580,
+      "top": 680,
+      "type": "device",
+      "deviceId": "SW-1",
+      "manufacturer": "Blackmagic Design",
+      "model": "ATEM Mini Extreme ISO",
+      "category": "switcher",
+      "location": "Video Desk",
+      "ports": [
+        {
+          "id": "in-1",
+          "label": "IN 1",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "in-2",
+          "label": "IN 2",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "in-3",
+          "label": "IN 3",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "in-4",
+          "label": "IN 4",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "out-1",
+          "label": "OUT 1",
+          "direction": "output",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "out-2",
+          "label": "OUT 2",
+          "direction": "output",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "mic-1",
+          "label": "MIC 1",
+          "direction": "input",
+          "connectorType": "3.5mm"
+        },
+        {
+          "id": "mic-2",
+          "label": "MIC 2",
+          "direction": "input",
+          "connectorType": "3.5mm"
+        },
+        {
+          "id": "usb-c",
+          "label": "USB-C",
+          "direction": "output",
+          "connectorType": "USB-C"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "output",
+          "connectorType": "RJ45"
+        }
+      ]
+    },
+    {
+      "id": "spk-1",
+      "left": 1120,
+      "top": 100,
+      "type": "device",
+      "deviceId": "SPK-1",
+      "manufacturer": "Electro-Voice",
+      "model": "ZLX-12P-G2",
+      "category": "loudspeaker",
+      "location": "Stage Left",
+      "ports": [
+        {
+          "id": "in",
+          "label": "IN",
+          "direction": "input",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "link-out",
+          "label": "LINK",
+          "direction": "output",
+          "connectorType": "XLR"
+        }
+      ]
+    },
+    {
+      "id": "spk-2",
+      "left": 1120,
+      "top": 320,
+      "type": "device",
+      "deviceId": "SPK-2",
+      "manufacturer": "Electro-Voice",
+      "model": "ZLX-12P-G2",
+      "category": "loudspeaker",
+      "location": "Stage Right",
+      "ports": [
+        {
+          "id": "in",
+          "label": "IN",
+          "direction": "input",
+          "connectorType": "XLR"
+        },
+        {
+          "id": "link-out",
+          "label": "LINK",
+          "direction": "output",
+          "connectorType": "XLR"
+        }
+      ]
+    },
+    {
+      "id": "display-1",
+      "left": 1120,
+      "top": 660,
+      "type": "device",
+      "deviceId": "DISPLAY-1",
+      "manufacturer": "Sony",
+      "model": "FW-55BZ40L",
+      "category": "display",
+      "location": "Main Screen Left",
+      "ports": [
+        {
+          "id": "hdmi-in-1",
+          "label": "HDMI 1",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "hdmi-in-2",
+          "label": "HDMI 2",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "input",
+          "connectorType": "RJ45"
+        }
+      ]
+    },
+    {
+      "id": "display-2",
+      "left": 1120,
+      "top": 900,
+      "type": "device",
+      "deviceId": "DISPLAY-2",
+      "manufacturer": "Panasonic",
+      "model": "TH-65SQ2H",
+      "category": "display",
+      "location": "Confidence Monitor",
+      "ports": [
+        {
+          "id": "hdmi-in-1",
+          "label": "HDMI 1",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "hdmi-in-2",
+          "label": "HDMI 2",
+          "direction": "input",
+          "connectorType": "HDMI"
+        },
+        {
+          "id": "dp-in",
+          "label": "DP",
+          "direction": "input",
+          "connectorType": "DisplayPort"
+        },
+        {
+          "id": "lan",
+          "label": "LAN",
+          "direction": "input",
+          "connectorType": "RJ45"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "mic-1.out",
+      "target": "mixer-1.mic-1",
+      "data": {
+        "id": "cable-1",
+        "type": "cable",
+        "cableId": "C-001",
+        "cableType": "audio"
+      }
+    },
+    {
+      "source": "wmic-1.out-1",
+      "target": "mixer-1.mic-2",
+      "data": {
+        "id": "cable-2",
+        "type": "cable",
+        "cableId": "C-002",
+        "cableType": "audio"
+      }
+    },
+    {
+      "source": "wmic-1.out-2",
+      "target": "mixer-1.mic-3",
+      "data": {
+        "id": "cable-3",
+        "type": "cable",
+        "cableId": "C-003",
+        "cableType": "audio"
+      }
+    },
+    {
+      "source": "media-1.out-l",
+      "target": "mixer-1.mic-4",
+      "data": {
+        "id": "cable-4",
+        "type": "cable",
+        "cableId": "C-004",
+        "cableType": "audio"
+      }
+    },
+    {
+      "source": "mixer-1.out-1",
+      "target": "spk-1.in",
+      "data": {
+        "id": "cable-5",
+        "type": "cable",
+        "cableId": "C-005",
+        "cableType": "audio"
+      }
+    },
+    {
+      "source": "mixer-1.out-2",
+      "target": "spk-2.in",
+      "data": {
+        "id": "cable-6",
+        "type": "cable",
+        "cableId": "C-006",
+        "cableType": "audio"
+      }
+    },
+    {
+      "source": "media-1.hdmi-out",
+      "target": "sw-1.in-1",
+      "data": {
+        "id": "cable-7",
+        "type": "cable",
+        "cableId": "C-007",
+        "cableType": "video"
+      }
+    },
+    {
+      "source": "cam-1.hdmi-out",
+      "target": "sw-1.in-2",
+      "data": {
+        "id": "cable-8",
+        "type": "cable",
+        "cableId": "C-008",
+        "cableType": "video"
+      }
+    },
+    {
+      "source": "cam-2.hdmi-out",
+      "target": "sw-1.in-3",
+      "data": {
+        "id": "cable-9",
+        "type": "cable",
+        "cableId": "C-009",
+        "cableType": "video"
+      }
+    },
+    {
+      "source": "media-2.hdmi-out",
+      "target": "sw-1.in-4",
+      "data": {
+        "id": "cable-10",
+        "type": "cable",
+        "cableId": "C-010",
+        "cableType": "video"
+      }
+    },
+    {
+      "source": "media-2.audio-out",
+      "target": "sw-1.mic-1",
+      "data": {
+        "id": "cable-11",
+        "type": "cable",
+        "cableId": "C-011",
+        "cableType": "audio"
+      }
+    },
+    {
+      "source": "sw-1.out-1",
+      "target": "display-1.hdmi-in-1",
+      "data": {
+        "id": "cable-12",
+        "type": "cable",
+        "cableId": "C-012",
+        "cableType": "video"
+      }
+    },
+    {
+      "source": "sw-1.out-2",
+      "target": "display-2.hdmi-in-1",
+      "data": {
+        "id": "cable-13",
+        "type": "cable",
+        "cableId": "C-013",
+        "cableType": "video"
+      }
+    }
+  ]
+}

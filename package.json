@@ -1,0 +1,21 @@
+{
+  "name": "visuallyjs-vue-av-schematic",
+  "private": true,
+  "version": "1.2.15",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@visuallyjs/browser-ui": "1.2.15",
+    "@visuallyjs/browser-ui-export": "1.2.15",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2",
+    "vite": "^7.1.7"
+  }
+}
